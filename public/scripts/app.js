@@ -17,7 +17,7 @@ var Indecision = function (_React$Component) {
     var _this = _possibleConstructorReturn(this, (Indecision.__proto__ || Object.getPrototypeOf(Indecision)).call(this, props));
 
     _this.state = {
-      options: props.options
+      options: []
     };
     _this.handleDeleteOptions = _this.handleDeleteOptions.bind(_this);
     _this.handlePick = _this.handlePick.bind(_this);
@@ -121,9 +121,11 @@ var Indecision = function (_React$Component) {
   return Indecision;
 }(React.Component);
 
-Indecision.defaultProps = {
-  options: []
-};
+// Indecision.defaultProps = {
+//   options: [],
+// };
+
+
 var Header = function Header(props) {
   return React.createElement(
     "div",

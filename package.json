@@ -6,8 +6,10 @@
   "license": "MIT",
   "dependencies": {
     "add": "^2.0.6",
+    "babel-cli": "6.24.1",
     "babel-preset-env": "1.5.2",
     "babel-preset-react": "6.24.1",
+    "live-server": "^1.2.1",
     "yarn": "^1.22.10"
   }
 }
