@@ -6,8 +6,8 @@
   "license": "MIT",
   "scripts": {
     "live": "live-server public/",
-    "build-babel": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch",
-    "webpack": "webpack --watch"
+    "webpack": "webpack",
+    "dev-server": "webpack-dev-server"
   },
   "dependencies": {
     "add": "^2.0.6",
@@ -21,6 +21,7 @@
     "react-dom": "^17.0.1",
     "validator": "8.0.0",
     "webpack": "3.1.0",
+    "webpack-dev-server": "2.5.1",
     "yarn": "^1.22.10"
   }
 }
